@@ -1,0 +1,32 @@
+{
+  "name": "pipepower",
+  "version": "1.0.0-rc-1",
+  "description": "A powerful and lightweight JavaScript library for function composition that enables you to easily compose functions and apply them to arrays.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "format": "npx prettier --write .",
+    "test": "npm run test"
+  },
+  "keywords": [
+    "javascript",
+    "composition",
+    "utility",
+    "library",
+    "array manipulation",
+    "functional programming"
+  ],
+  "author": "@alcaidio",
+  "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "prettier": "^2.8.8",
+    "pretty-quick": "^3.1.3"
+  }
+}
